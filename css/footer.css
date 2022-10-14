@@ -1,0 +1,130 @@
+/* FOOTER */
+
+footer { 
+    width: 100%;
+    padding: var(--padding-section);
+
+    background-color: var(--primary-theme-color);
+  }
+
+  .footer__supercontainer{
+    max-width: var(--max-width-container);
+    margin: 0 auto;
+    padding: 0 1rem; 
+    color: var(--primary-text-color);
+    
+  }
+  .footer__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;   
+    gap: 1rem; 
+  }
+  
+  .footer__container-box1 a{
+    margin-right: 1.8rem;
+    text-decoration: none;
+    color: var(--primary-text-color);
+    font-size: 1.8rem;
+    transition: var(--primary-all-transitions);
+  }
+  
+  .footer__container-box1 a:hover{
+    color: var(--secondary-theme-color);
+  }
+  
+  .footer__container-box1 p{
+    max-width: 200px;
+    margin-top: 1.8rem;
+    text-align: center;
+    
+  }
+  .footer__container-box1 img{
+    margin-top: 1.3rem;
+    background-color: #ffe8c2;
+  }
+
+  .footer__container-logo{
+    text-align: center;
+  }
+    
+  
+  .footer__container-box2 ul{
+    list-style: none;
+    padding-left: 0;
+    text-align: center;  
+  }
+  .footer__container-box2 li{
+    padding-top: 22px;
+  }
+  .footer__container-box2 a{
+    text-decoration: none;
+    color: var(--primary-text-color);
+    transition: var(--primary-all-transitions);   
+  }
+  .footer__container-box2 a:hover{
+    color: #f4bd76;
+    
+    
+  }
+
+  .footer__container-box2 h4{
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  
+  .footer__media-icons{
+    display: flex;
+    flex-direction: row;  
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    
+  }
+
+  .footer__container-box3 a{
+    text-decoration: none;
+    color: var(--primary-text-color);
+    font-size: 1.5rem;
+    transition: var(--primary-all-transitions);
+    
+  }
+
+  .footer__container-box3 a:hover{
+    transform: scale(1.5);
+    color: var(--primary-text-color);
+  }
+
+  .footer__container-box4{
+    margin-top: 3rem;
+    text-align: center;
+    width: 100%;
+    color: var(--primary-text-color);
+  }
+
+  .btn{
+    background-color: #f4bd76;
+  }
+  
+
+  @media (min-width: 854px) {
+  
+    .footer__container {
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;    
+    }  
+  
+    .footer__container-box2{  
+      padding: 1.5rem;    
+    }
+
+    .footer__media-icons{
+        gap: 1.5rem;        
+      }
+
+  
+  }
