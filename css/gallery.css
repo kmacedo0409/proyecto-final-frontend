@@ -1,0 +1,13 @@
+.gallery{
+    max-width: var(--max-width-container);
+    margin: 0 auto;
+    color: var(--primary-text-color);
+    background-color: var(--primary-theme-color);
+    padding: var(--padding-section) ;
+}
+.text{
+    font-weight: 400;
+    font-size: 3.5rem;
+    margin: 0;
+}
+
