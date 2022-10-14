@@ -1,7 +1,8 @@
 @import '/css/variables.css';
 @import '/css/header.css';
 @import '/css/hero.css';
-
+@import '/css/intro.css';
+@import '/css/weddings.css';
 
 .body{
     margin: 0;

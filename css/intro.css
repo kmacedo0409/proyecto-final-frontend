@@ -11,7 +11,8 @@
     max-width: 1024px;
     margin: 0 auto;
     padding: 0 1rem;
-
+    justify-content: center;
+    align-items: center;
 }
 
 .intro__tittle-container{
@@ -55,6 +56,8 @@
         max-width: 1024px;
         margin: 0 auto;
         padding: 0 1rem;
+        align-items: center;
+        justify-content: center;
     
     }
 
@@ -65,7 +68,7 @@
 
     .intro__tittle{
         font-weight: 300;
-        font-size: 5rem;
+        font-size: 2.5rem;
         margin: 0;
         text-align: start; 
         
@@ -78,11 +81,13 @@
         text-align: end;
     }
 
-    /* .intro_paragraph-container{
+    .intro_paragraph-container{
         display: flex;
+        justify-content: center;
+        align-items:center;
         
-        
-    } */
+    }
+
     .intro__paragraph{
         display: flex;
         align-items: center;
