@@ -1,0 +1,66 @@
+@import '/index.css';
+
+
+
+.main{
+    min-height: 100vh;
+}
+
+.cont-fotos{
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 80px auto;
+    max-width: var(--max-width-container);
+}
+.cont-fotos ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.cont-fotos ul li{
+    list-style: none;
+    background:rosybrown;
+    padding: 12px 20px;
+    margin: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    color: var(--primary-text-color);
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
+.cont-fotos ul li.active{
+    background:#ffe8c2;
+    color: rosybrown ;
+}
+.fotos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.fotos .itemFotos{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    display: block;
+}
+.fotos .itemFotos.hide{
+    display: none;
+}
+.fotos .itemFotos img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+

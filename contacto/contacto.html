@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/contacto.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+</head>
+<body class="body">
+  <header class="header">
+    <nav class="header-nav">
+        <div class="header-nav__container">
+            
+            <h2> <a href="#hero" class="header-nav__logo">Jk Studio</a></h2>
+
+            <button class="header-nav__menu-icon-container" id="menuIconContainer">
+                <i class="bi bi-list"></i>
+            </button>
+
+            <ul class="header-nav__menu-list">
+                <li class="header-nav__menu-item">
+                    <a href="/index.html" class="header-nav__menu-link">Inicio</a>
+                </li>
+                <li class="header-nav__menu-item">
+                    <a href="" class="header-nav__menu-link">Nosotros</a>
+                </li>
+                <li class="header-nav__menu-item">
+                    <a href="" class="header-nav__menu-link">Portafolio</a>
+                </li>
+                <li class="header-nav__menu-item">
+                    <a href="/categorias/categorias.html" class="header-nav__menu-link">Categorias</a>
+                </li>
+                <li class="header-nav__menu-item">
+                    <a href="/contacto/contacto.html" class="header-nav__menu-link header-nav__menu-link--active">Contacto</a>
+                </li>
+                <li class="header-nav__menu-item header-nav__menu-item--menu-close">
+                    <button class="header-nav__menu-close-icon-container" id="menuCloseIconContainer">
+                      <i class="bi bi-x-circle"></i>
+                    </button>
+                  </li>
+            </ul>
+        </div>
+
+    </nav>
+</header>
+
+<main class="main">
+  <section class="registration" id="registration">
+    <div class="registration__container">
+      <div class="registration__titles">
+        <h2 class="registration__titles-title">Reserva</h2>
+        <h3 class="registration__titles-message">tu sesion de fotos</h3>
+      </div>
+      <form action="#" class="registration__form" id="form">
+        <input type="text" class="registration__input-text" placeholder="Nombres y Apellidos" id="nameSurname" required>
+        <input type="tel" class="registration__input-text" placeholder="Teléfono" id="telephone" required>
+        <input type="email" class="registration__input-text" placeholder="Correo Electrónico" id="email" required>
+        <input type="text" class="registration__input-text" placeholder="Lugar del Evento" id="place" required>
+        <label class="registration__label-text" for="date">Fecha del evento</label>
+        <input type="date" class="registration__input-text" placeholder="Fecha del Evento" id="date" required>
+        <label class="registration__label-text" for="message">Cuentanos como te gustaria que sea tu sesion de fotos </textarea></label>
+        <textarea name="message" id="message" class="registration__text-area" rows="3"></textarea>
+        <button type="submit" class="registration__button" id="button">Enviar</button>
+      </form>
+    </div>
+  </section>
+</main>  
+
+<footer class="footer">
+
+   
+  <section class="footer__supercontainer">
+    <div class="footer__container">
+        <div class="footer__container-box1">
+          <div class="footer__container-logo">
+            <img src="/assets/img/FooterL.png" alt="Logo2 Company" width="128" height="132"/>
+          </div>
+          <div class="footer__container-paragraph">
+            <p class="footer__container-parrafo">Reserve su fecha para una hermosa experiencia .</p>
+          </div>      
+        </div>
+        
+        <div class="footer__container-box2">
+          <h4 class="footer__container-subtitle">Nosotros</h4>
+          <ul class="footer__container-menulist">
+            <li class="footer__container-list">
+              <a class="footer__container-ancla" href="#">Acerca</a>
+            </li>
+            <li class="footer__container-list">
+              <a href="#">Historia</a>
+            </li>
+            <li class="footer__container-list">
+              <a href="#">Testimonios</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__container-box2">
+          <h4 class="footer__container-subtitle">Contacto</h4>
+          <ul class="footer__container-menulist">
+            <li class="footer__container-list">
+              <a href="#">FAQ</a>
+            </li>
+            <li class="footer__container-list">
+              <a href="#">Llamanos</a>
+            </li>
+            <li class="footer__container-list">
+              <a href="#">Afíliate</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__container-box2">
+          <h4 class="footer__container-subtitle">Legales</h4>
+          <ul class="footer__container-menulist">
+            <li class="footer__container-list">
+              <a href="#">Terminos y condiciones</a>
+            </li>
+            <li class="footer__container-list">
+              <a href="#">Politicas de cookies</a>
+            </li>
+            <li class="footer__container-list">
+              <a href="#">Politicas de privacidad</a>
+            </li>
+          </ul>    
+        </div>
+
+        <div class="footer__container-box3">
+            <div class="footer__media-icons">
+              <a id="facebook" href="#">
+                <i class="bi bi-facebook"></i>
+              </a>
+              <a id="instagram" href="#">
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a id="twitter" href="#">
+                <i class="bi bi-twitter"></i>
+              </a>
+            </div>
+          </div>   
+
+      </div>
+    </section>
+
+    <section class="footer__container-box4">
+      <h5> Copyright © 2022 Jk Studio, S.R.L. <i class="bi bi-c-circle"></i> </h5>
+    </section>
+  
+</footer>
+      
+        
+
+    <script src="/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
