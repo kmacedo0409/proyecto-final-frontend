@@ -1,3 +1,7 @@
+@import '/css/variables.css';
+@import '/css/header.css';
+@import '/css/hero.css';
+
 
 .body{
     margin: 0;
