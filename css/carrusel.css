@@ -3,8 +3,9 @@
     margin: 0 auto;
 }
 h1{
-    color: #444;
+    color: var(--primary-text-color);
     text-align: center;
+    font-size: 3.5rem;
 }
 
 .carrusel-items{
