@@ -1,10 +1,12 @@
 .hero{
   padding: var(--padding-section);
-}
+  }
 
 .carousel-tittle{
   color: #f1f1f1;
   font-size: 3rem;
   transform: translateY(-50px);
+  background: rgb(230, 186, 186);
+  
   
 }
