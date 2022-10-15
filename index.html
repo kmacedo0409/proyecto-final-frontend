@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
-    <title></title>
+    <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
+    <title>JK STUDIO</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap" rel="stylesheet">
@@ -32,10 +32,10 @@
                         <a href="#hero" class="header-nav__menu-link">Inicio</a>
                     </li>
                     <li class="header-nav__menu-item">
-                        <a href="" class="header-nav__menu-link">Nosotros</a>
+                        <a href="#team" class="header-nav__menu-link">Nosotros</a>
                     </li>
                     <li class="header-nav__menu-item">
-                        <a href="" class="header-nav__menu-link">Portafolio</a>
+                        <a href="#gallery" class="header-nav__menu-link">Portafolio</a>
                     </li>
                     <li class="header-nav__menu-item">
                         <a href="./categorias/categorias.html" class="header-nav__menu-link" target="_blank">Categorias</a>
@@ -67,15 +67,19 @@
                   <img src="/assets/img/heroSiete.jpg" class="d-block w-100" alt="...">
                 </div>
               </div>
-              <button class="carousel-control-prev" data-bs-target="#control" data-bs-slide="prev" >
-                <span>Previous</span>
-                <span class="carousel-control-prev-icon"></span>
+              <button class="carousel-control-prev" type="button" data-bs-target="#control" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
               </button>
-              <button class="carousel-control-next" data-bs-target="#control" data-bs-slide="next" >
-                <span>Next</span>
-                <span class="carousel-control-next-icon"></span>
+              <button class="carousel-control-next" type="button" data-bs-target="#control" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
               </button>
             </div>
+
+            <h1 class="hero_tittle"> Una sola fotografía puede contener múltiples imágenes.</h1>
+
+
         </article>
 
 
@@ -85,7 +89,7 @@
                 <h2 class="intro__tittle">
                   ¡Capturamos tus mejores momentos!
                 </h2>
-                <a href="#" class="hero__btn">Cotizar</a>
+                <a href="#" class="intro__btn">Cotizar</a>
                 
               </div>
               <div class="intro_paragraph-container">
@@ -124,7 +128,83 @@
           </div>
         </section>
 
-        <section class="gallery">
+        <section id="team" class="team">
+          
+          <div class="team__container">
+
+            <h2 class="team__tittle">Our Team</h2>
+
+            <div class="team__card-container">
+
+              <div class="card">
+                <div class="content">
+                    <div class="imgBox">
+                        <img src="/assets/img/filter-image/man1.png" alt="fotoman">
+                    </div>
+                    <div class="contentBox">
+                        <h4>Jean Montes</h4>
+                        <h5>Photographer Wedding</h5>
+                    </div>
+                    <div class="social">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                </div>
+
+                <div class="card">
+                  <div class="content">
+                    <div class="imgBox">
+                        <img src="/assets/img/filter-image/man2.png" alt="fotoman">
+                    </div>
+                    <div class="contentBox">
+                        <h4>Jesús Bravo</h4>
+                        <h5>Photographer Wedding</h5>
+                    </div>
+                    <div class="social">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="card">
+                  <div class="content">
+                    <div class="imgBox">
+                        <img src="/assets/img/filter-image/woman1.png" alt="fotoman">
+                    </div>
+                    <div class="contentBox">
+                        <h4>Karina Macedo</h4>
+                        <h5>Style Wedding</h5>
+                    </div>
+                    <div class="social">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="card">
+                  <div class="content">
+                    <div class="imgBox">
+                        <img src="/assets/img/filter-image/man3.png" alt="fotoman">
+                    </div>
+                    <div class="contentBox">
+                        <h4>Johan Labra</h4>
+                        <h5>Photographer Design</h5>
+                    </div>
+                    <div class="social">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+
+        </section>
+
+        <section id="gallery" class="gallery">
           <section class="container mt-5 " >
                 <h2 class="text">Gallery</h2>
                 <div
@@ -132,7 +212,7 @@
                 class="carousel slide carousel-fade mt-5"
                 data-bs-ride="carousel">
                   
-                <div class="carousel-inner">
+                <div class="carousel-inner d-flex justify-content-center align-items-center">
                   <div class="carousel-item active">
                       <img src="/assets/img/imagenDos.png"   alt="" class="d-block w-30"/>
                       
@@ -152,13 +232,13 @@
                   
                   </div>
 
-                  <button class="carousel-control-prev" data-bs-target="#controls" data-bs-slide="prev" >
-                    <span>Previous</span>
-                    <span class="carousel-control-prev-icon"></span>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#controls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
                   </button>
-                  <button class="carousel-control-next" data-bs-target="#controls" data-bs-slide="next" >
-                    <span>Next</span>
-                    <span class="carousel-control-next-icon"></span>
+                  <button class="carousel-control-next" type="button" data-bs-target="#controls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
                   </button>
                   
                   </div>

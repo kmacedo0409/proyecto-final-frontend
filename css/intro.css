@@ -46,6 +46,26 @@
     
 }
 
+.intro__btn{
+
+    align-self: center;
+    color: #fff;
+    background:rosybrown; 
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    
+  }
+  
+  .intro__btn:hover{
+    background-color: var(--primary-text-color);
+    color:rosybrown
+  }
+  
+
 @media (min-width: 854px){
     
     

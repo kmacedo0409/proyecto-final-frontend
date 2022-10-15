@@ -1,5 +1,4 @@
 .weddings{
-    background-color:var(--primary-theme-color);
     padding: var(--padding-section);    
 }
 .weddings__container{
@@ -9,8 +8,8 @@
     gap: 2rem;
     max-width: 1024px;
     margin: 0 auto;
-    padding: 0 1rem;
-    
+    padding: var(--padding-container);;
+
 }
 .weddings__text-container{
     display: flex;

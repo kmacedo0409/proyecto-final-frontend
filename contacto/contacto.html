@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>JK STUDIO</title>
     <link rel="stylesheet" href="/css/contacto.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
@@ -56,13 +56,14 @@
         <h2 class="registration__titles-title">Reserva</h2>
         <h3 class="registration__titles-message">tu sesion de fotos</h3>
       </div>
-      <form action="#" class="registration__form" id="form">
-        <input type="text" class="registration__input-text" placeholder="Nombres y Apellidos" id="nameSurname" required>
-        <input type="tel" class="registration__input-text" placeholder="Teléfono" id="telephone" required>
-        <input type="email" class="registration__input-text" placeholder="Correo Electrónico" id="email" required>
-        <input type="text" class="registration__input-text" placeholder="Lugar del Evento" id="place" required>
+
+      <form class="registration__form" id="form" action="https://getform.io/f/346424ed-eec6-414f-b07f-ec22feb261ea" method="POST">
+        <input name="surname" type="text" class="registration__input-text" placeholder="Nombres y Apellidos" id="nameSurname" required>
+        <input name="phone" type="tel" class="registration__input-text" placeholder="Teléfono" id="telephone" required>
+        <input name="email" type="email" class="registration__input-text" placeholder="Correo Electrónico" id="email" required>
+        <input name="place" type="text" class="registration__input-text" placeholder="Lugar del Evento" id="place" required>
         <label class="registration__label-text" for="date">Fecha del evento</label>
-        <input type="date" class="registration__input-text" placeholder="Fecha del Evento" id="date" required>
+        <input name="date" type="date" class="registration__input-text" placeholder="Fecha del Evento" id="date" required>
         <label class="registration__label-text" for="message">Cuentanos como te gustaria que sea tu sesion de fotos </textarea></label>
         <textarea name="message" id="message" class="registration__text-area" rows="3"></textarea>
         <button type="submit" class="registration__button" id="button">Enviar</button>

@@ -3,7 +3,6 @@
 footer { 
     width: 100%;
     padding: var(--padding-section);
-
     background-color: var(--primary-theme-color);
   }
 
@@ -78,7 +77,6 @@ footer {
   
   .footer__media-icons{
     display: flex;
-    flex-direction: row;  
     align-items: center;
     justify-content: center;
     gap: 2rem;
@@ -95,7 +93,7 @@ footer {
 
   .footer__container-box3 a:hover{
     transform: scale(1.5);
-    color: var(--primary-text-color);
+    color: var(--h);
   }
 
   .footer__container-box4{
