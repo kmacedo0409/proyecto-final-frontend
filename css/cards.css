@@ -13,11 +13,10 @@
 
 .team__card-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1.5rem;
     max-width: var(--max-width-container);
     margin: 0 auto;
-    /* padding: var(--padding-container); */
     justify-items: center;
 }
 

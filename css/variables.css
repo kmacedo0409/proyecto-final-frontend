@@ -18,6 +18,8 @@
     --primary-all-transitions: all 0.25s ease-in-out;
     --primary-font-family: 'Inconsolata', monospace;
     --focus-color: #f7d9d950;
+    --light-mode: rosybrown;
+    --dark-mode: #211810;
 
   
   }
